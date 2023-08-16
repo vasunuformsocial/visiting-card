@@ -30,5 +30,8 @@ body {
     background-image: url("./images/2nd\ bg-04.png");
     background-size: auto;
     background-position: center;
-    
+}
+
+.active {
+    scale: 1;
 }

@@ -8,6 +8,5 @@
 
 
 function toggleModal() {
-     document.getElementById('#modal').classList.toggle('hidden');
-     console.log("running");
-}
+     document.getElementById('modal').classList.toggle('hidden');
+ }

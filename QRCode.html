@@ -91,21 +91,31 @@
 
 
                         <!-- Overlay -->
-                        <div class="absolute top-0 bottom-0 w-[400px] lg:h-[730px] md:h-auto sm:h-auto bg-pink-500  
-                                    flex flex-col justify-center items-center rounded-lg bg-opacity-90">
-                            <div class=" w-[90%] h-auto px-5 py-5 flex flex-col justify-center items-center
-                                        mx-auto border border-pink-600 rounded-lg shadow-2xl z-10 opacity-100">
-                                <div>
-                                    <h1 class=" text-[25px] text-white z-10">NUFORM SOCIAL</h1>
-                                </div>
-                                <div>
-                                    <img src="./images/qr code-17.png" alt="QR-Code" class="">
-                                </div>
-                                <div>
-                                    <p class="text-[25px] text-white z-10">Scan Here</p>
+                        <div class="fixed top-0 bottom-0">
+
+
+                            <div class=" w-[400px] lg:h-[730px] md:h-auto sm:h-auto bg-pink-500  
+                            flex flex-col justify-center items-center rounded-lg bg-opacity-90">
+
+                            <div class="flex w-full justify-end items-start pr-4 pt-4">
+                                <i onclick="closeModal()" class="fa-solid fa-xmark "></i>
+                            </div>
+                                <div class=" w-[90%] h-auto px-5 py-5 flex flex-col justify-center items-center
+                                            mx-auto border border-pink-600 rounded-lg shadow-2xl z-10 opacity-100">
+
+                                    <div>
+                                        <h1 class=" text-[25px] text-white z-10">NUFORM SOCIAL</h1>
+                                    </div>
+                                    <div>
+                                        <img src="./images/qr code-17.png" alt="QR-Code" class="">
+                                    </div>
+                                    <div>
+                                        <p class="text-[25px] text-white z-10">Scan Here</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
 
 
 
@@ -115,6 +125,7 @@
 
         </div>
 
+        <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
 
 </body>
 </html>

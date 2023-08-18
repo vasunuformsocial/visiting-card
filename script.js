@@ -7,8 +7,8 @@
 // } 
 
 
-function toggleModal() {
-     console.log("Fuction running");
-     document.getElementById('modal').classList.toggle('hidden');
+// function toggleModal() {
+//      console.log("Fuction running");
+//      document.getElementById('modal').classList.toggle('hidden');
      
- }
+//  }

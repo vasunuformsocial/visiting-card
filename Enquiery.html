@@ -3,121 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NSPL E-Visiting Card</title>
+    <title>NSPL-E-Visiting Card</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<body class="p-0 m-0 box-border">
-
+<body class="m-0 p-0 box-border">
     <!-- container -->
-    <div class="h-auto  w-full flex justify-center items-center overflow-x-hidden overflow-y-scroll">
-                <!-- Card -->
-                <div class="relative card-3 w-[400px] lg:h-[730px] md:h-auto sm:h-auto
-                             flex flex-col flex-wrap justify-between items-center gap-3 mx-auto rounded-lg">
-                   <!-- Founder's box -->
-                   <div class="flex flex-col bg-blue-950 justify-center items-center py-4 px-8 mt-8 rounded-[60px] shadow-2xl mx-auto
-                                border-2 border-gradient-to-r from-blue-700 via-pink-800 to-pink-500">
-                       <div class="flex gap-x-3 items-center flex-wrap">
-                           <div>
-                               <img src="./images/Ahishek-photo.png" alt="Founder's Photo" class="h-[80px]  border-4 border-pink-300 rounded-full ">
-                           </div>
-                           <div>
-                               <p class="text-white font-semibold ">Abhishek Shivam</p>
-                               <p class="text-white font-semibold">Nuform Social</p> 
-                               <p class="text-sm text-white font-semibold">Founder & CEO</p>
-                           </div>
-                       </div>
-                       <!-- bar -->
-                       <div>
-                            <img src="./images/21-21.png" alt="bar">
-                        </div>
-                       <div >
-                           
-                           <button class="bg-gradient-to-br from-purple-800 to-pink-800 flex justify-center items-center gap-2 py-2 px-4 rounded-full shadow-2xl">
-                               <p class="text-[12px] font-semibold text-white">BNI Connections</p>
-                               <div class="bg-blue-950 px-1 py-1 rounded-md">
+    <div class="w-auto h-full flex justify-center items-center overflow-x-hidden overflow-y-auto">
+
+        <!-- card -->
+        <div class="relative card-2 
+                    lg:w-[400px] md:max-w-screen-md sm:max-w-screen-sm
+                    lg:h-screen md:h-auto sm:h-auto bg-blue-400">
+
+            <!-- CEO box -->
+            <div class="w-[75%] h-auto bg-blue-950 flex flex-col justify-center items-center py-4 px-8 mt-16 rounded-[60px] shadow-2xl mx-auto
+                border-2 border-gradient-to-r from-blue-700 via-pink-800 to-pink-500">
+                <div class="flex gap-x-3 items-center flex-wrap">
+                    <div>
+                        <img src="./images/Ahishek-photo.png" alt="Founder's Photo" class="h-[80px]  border-4 border-pink-300 rounded-full ">
+                    </div>
+                    <div>
+                        <p class="text-white font-semibold ">Abhishek Shivam</p>
+                        <p class="text-white font-semibold">Nuform Social</p> 
+                        <p class="text-sm text-white font-semibold">Founder & CEO</p>
+                    </div>
+                </div>
+                <!-- bar -->
+                    <div>
+                        <img src="./images/21-21.png" alt="bar">
+                    </div>
+                    <div >
+                        
+                        <button class="bg-gradient-to-br from-purple-800 to-pink-800 flex justify-center items-center gap-2 py-2 px-4 rounded-full shadow-2xl">
+                            <p class="text-[12px] font-semibold text-white">BNI Connections</p>
+                            <div class="bg-blue-950 px-1 py-1 rounded-md">
                                     <img src="./images/arrow-down-solid.svg" alt="down-arrow"  class="h-[10px]"
                                     style="filter: invert(94%) sepia(73%) saturate(55%) hue-rotate(342deg) brightness(104%) contrast(99%);">
-                               </div>
-                           </button>
-                       </div>
-                   </div>
-       
-                   
-       
-                       <!-- Connections -->
-                   <div class="w-[80%] h-auto flex flex-col gap-y-12 justify-center items-center mx-auto pt-2 pb-2">
-                        <div class="flex flex-col justify-center items-center mx-auto">
-                                <div class="">
-                                    <div class="flex items-center">
-                                        <img src="./images/john doe.png" alt="" class="h-[60px] border-4 border-pink-300 rounded-full 
-                                        relative -right-7 shadow-2xl
-                                        z-10">
-                                        <div class="">
-                                            <p class="h-[40px] bg-gradient-to-br from-purple-800 to-pink-800  rounded-full flex items-center 
-                                            py-2 px-8 pr-4 text-[12px] text-white font-semibold shadow-2xl bg-opacity-80">Vishal Ahuja | CEO Brand Visual</p>
-                                        </div>
-                                    </div>
-                                </div>
-                
-                                <div class="flex items-center">
-                                    <div class="flex items-center ">
-                                        <div class="">
-                                            <p class="h-[40px] bg-gradient-to-br from-purple-800 to-pink-800 rounded-full flex items-center 
-                                            py-2 px-8 pl-4 text-[12px] text-white font-semibold  shadow-2xl">Vishal Ahuja | CEO Brand Visual</p>
-                                        </div>
-                                        <img src="./images/john doe.png" alt="" class="h-[60px] border-4 border-pink-300 rounded-full 
-                                        relative -left-7  shadow-2xl
-                                        z-10">
-                                    </div>
-                                </div>
-                
-                                <div class="flex items-center">
-                                    <div class="flex items-center ">
-                                        <img src="./images/john doe.png" alt="" class="h-[60px] border-4 border-pink-300 rounded-full 
-                                        relative -right-6  shadow-2xl
-                                        z-10">
-                                        <div class="">
-                                            <p class="h-[40px] bg-gradient-to-br from-purple-800 to-pink-800 rounded-full flex items-center 
-                                            py-2 px-8 pr-4 text-[12px] text-white font-semibold  shadow-2xl">Vishal Ahuja | CEO Brand Visual</p>
-                                        </div>
-                                    </div>
-                                </div>
-                
-                
-                                <div class="flex items-center">
-                                    <div class="flex items-center">
-                                        <div class="">
-                                            <p class="h-[40px] bg-gradient-to-br from-purple-800 to-pink-800 rounded-full flex items-center 
-                                            py-2 px-8 pl-4 text-[12px] text-white font-semibold  shadow-2xl">Vishal Ahuja | CEO Brand Visual</p>
-                                        </div>
-                                        <img src="./images/john doe.png" alt="" class="h-[60px] border-4 border-pink-300 rounded-full 
-                                        relative -left-7  shadow-2xl
-                                        z-10">
-                                    </div>
-                                </div>
-                        </div>
-
-       
-                   </div>
-       
-                   <!-- back button -->
-                   <a href="./index.html">
-                        <button class="bg-gradient-to-br from-purple-800 to-pink-800 flex items-center gap-x-2 py-2 px-4 
-                                        mb-[80px] rounded-full shadow-2xl">
-                            <img src="./images/arrow-left-solid.svg" alt="left-arrow" class="h-[20px]"
-                            style="filter: invert(94%) sepia(73%) saturate(55%) hue-rotate(342deg) brightness(104%) contrast(99%);">
-                            <p class="text-[12px] font-semibold text-white">Back</p>
+                            </div>
                         </button>
-                   </a>
-
-       
-                   <!-- footer -->
-                   <div class="h-[30px] w-full absolute bottom-0 bg-blue-600 flex justify-center items-center opacity-50 border-none shadow-2xl rounded-b-lg
-                                 bg-gradient-to-r from-blue-500 via-blue-800 to-pink-600 ">
-                    <div class="text-[9px] font-bold text-white">COPYRIGHT@ Nuform Social Pvt.Ltd. </div>
                     </div>
-               </div>
-    </div>  
-      
+            </div>
+
+            <!-- connections -->
+            <div class="w-[80%] h-auto flex flex-col gap-3 mx-auto mt-6">
+                <div class="flex items-center">
+                    <div class="z-10 "> <img src="./images/john doe.png" alt="" class="h-[60px] border-4 border-pink-300 rounded-full"></div>
+                    <div class="bg-gradient-to-br from-purple-800 to-pink-800  relative right-6 h-10 w-[85%] flex flex-wrap items-center pl-8 rounded-full">
+                        <p class="text-[12px] text-white font-semibold shadow-2xl bg-opacity-80">Vishal Ahuja | CEO Brand Visual</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center">
+                    <div class="bg-gradient-to-br from-purple-800 to-pink-800 relative left-6 h-10 w-[85%] flex flex-wrap items-center pl-14 rounded-full">
+                        <p class="text-[12px] text-white font-semibold shadow-2xl bg-opacity-80">Vishal Ahuja | CEO Brand Visual</p>
+                    </div>
+                    <div class="z-10 "><img src="./images/john doe.png" alt="" class="h-[60px] border-4 border-pink-300 rounded-full"></div>
+                </div>
+
+                <div class="flex items-center">
+                    <div class="z-10 "> <img src="./images/john doe.png" alt="" class="h-[60px] border-4 border-pink-300 rounded-full"></div>
+                    <div class="bg-gradient-to-br from-purple-800 to-pink-800  relative right-6 h-10 w-[85%] flex flex-wrap items-center pl-8 rounded-full">
+                        <p class="text-[12px] text-white font-semibold shadow-2xl bg-opacity-80">Vishal Ahuja | CEO Brand Visual</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center">
+                    <div class="bg-gradient-to-br from-purple-800 to-pink-800 relative left-6 h-10 w-[85%] flex flex-wrap items-center pl-14 rounded-full">
+                        <p class="text-[12px] text-white font-semibold shadow-2xl bg-opacity-80">Vishal Ahuja | CEO Brand Visual</p>
+                    </div>
+                    <div class="z-10 "><img src="./images/john doe.png" alt="" class="h-[60px] border-4 border-pink-300 rounded-full"></div>
+                </div>
+            </div>
+
+            <!-- back button -->
+            <a href="./index.html">
+                <div class="w-[80px] bg-gradient-to-br from-purple-800 to-pink-800 flex items-center justify-center 
+                            gap-2 py-2 px-4 mx-auto mt-8 mb-12 rounded-full shadow-2xl">
+                            <img src="./images/arrow-left-solid.svg" alt="left-arrow" class="h-[18px]"
+                            style="filter: invert(94%) sepia(73%) saturate(55%) hue-rotate(342deg) brightness(104%) contrast(99%);">
+                    <p class="text-[14px] font-semibold text-white">Back</p>
+                </div>
+            </a>
+
+            <!-- footer -->
+            <div class="absolute bottom-0 h-[30px] w-full flex justify-center items-center bg-gradient-to-r from-blue-500 via-blue-800 to-pink-600 opacity-50">
+                <p class="text-[9px] font-bold text-white">COPYRIGHT@ Nuform Social Pvt.Ltd.</p>
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </div>
 </body>
 </html>

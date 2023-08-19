@@ -28,7 +28,7 @@ body {
 
 .card-3 {
     background-image: url("./images/2nd\ bg-04.png");
-    background-size: auto;
+    background-size: cover;
     background-position: center;
 }
 

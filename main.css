@@ -10,7 +10,7 @@ body {
 
 .card-1 {
     background-image: url("./images/background-01-04.png");
-    background-size: cover;
+    background-size: autp;
     background-position: center;
 }
 
@@ -28,10 +28,7 @@ body {
 
 .card-3 {
     background-image: url("./images/2nd\ bg-04.png");
-    background-size: cover;
+    background-size: auto;
     background-position: center;
 }
 
-.active {
-    scale: 1;
-}

@@ -10,10 +10,10 @@ body {
 
 .card-1 {
     background-image: url("./images/background-01-04.png");
-    background-size: autp;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height:max-content;
+    /* height:max-content; */
 }
 
 /* .card-2 {
@@ -30,9 +30,9 @@ body {
 
 .card-3 {
     background-image: url("./images/2nd\ bg-04.png");
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height:max-content;
+    /* height:max-content; */
 }
 

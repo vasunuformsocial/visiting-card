@@ -16,11 +16,7 @@ body {
     /* height:max-content; */
 }
 
-/* .card-2 {
-    background-image: url("./images/background-01-04.png");
-    background-size: cover;
-    background-position: center;
-} */
+
 
 /* .gradient {
     border: 2px;
@@ -28,11 +24,17 @@ body {
     border-color: ;
 } */
 
-.card-3 {
+.card-2 {
     background-image: url("./images/2nd\ bg-04.png");
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
     /* height:max-content; */
 }
+
+/* .card-3 {
+    background-image: url("./images/background-01-04.png");
+    background-size: cover;
+    background-position: center;
+} */
 
